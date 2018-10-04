@@ -1,3 +1,5 @@
+package src;
+
 public class C51 {
     public C51() {
     }
