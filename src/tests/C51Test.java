@@ -2,24 +2,25 @@ package tests;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import src.C31;
+import src.C51;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class C31Test {
-    private C31 c31;
+public class C51Test {
+    private C51 c51;
 
     @BeforeEach
     void before() {
-        c31 = new C31();
+        c51 = new C51();
     }
 
     @Test
     void testM1() {
-        assertEquals("m1", c31.m1());
+        assertEquals("m1", c51.m1());
     }
     @Test
     void testM2() {
-        assertEquals("m2", c31.m2());
+        assertEquals("m2", c51.m2());
     }
+
 }
